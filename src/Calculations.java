@@ -7,13 +7,9 @@ public class Calculations {
         double c = Math.pow(triangle.getBokC()),2;
         boolean isRightTriangel  = false;
 
-
-
-        if (a == b + c || b == a + c || c == a + b) {
-            isRightTriangel = true;
-        }
+            if (a == b + c || b == a + c || c == a + b) {
+             isRightTriangel = true;
+            }
         return isRightTriangel;
     }
-
-
 }
