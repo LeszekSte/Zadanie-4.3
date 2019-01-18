@@ -1,6 +1,5 @@
 public class Triangle {
 
-
     private double bokA;
     private double bokB;
     private double bokC;
@@ -35,12 +34,9 @@ public class Triangle {
         this.bokC = bokC;
     }
 
-
-
-
     @Override
     public String toString() {
-        return "Triangle{" +
+        return "Ttójkąt{" +
                 "bokA=" + bokA +
                 ", bokB=" + bokB +
                 ", bokC=" + bokC +
