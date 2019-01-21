@@ -4,6 +4,7 @@ public class Triangle {
     private double bokA;
     private double bokB;
     private double bokC;
+    Calculations cal;
 
     public double getBokA() {
         return bokA;
@@ -35,15 +36,12 @@ public class Triangle {
         this.bokC = bokC;
     }
 
-
-
-
     @Override
     public String toString() {
         return "Triangle{" +
                 "bokA=" + bokA +
                 ", bokB=" + bokB +
                 ", bokC=" + bokC +
-                 '}';
+                 '}' ;
     }
 }
